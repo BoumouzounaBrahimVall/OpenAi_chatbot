@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
   // fetch data from server -> bot's response
 
   
-  const response = await fetch('https://vallbot.onrender.com', {
+  const response = await fetch('https://codex-im0y.onrender.com/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
