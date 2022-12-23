@@ -155,6 +155,12 @@ form img {
   font-family: 'Island Moments';
 font-style: normal;
 font-weight: 400;
-font-size: 20rem;
+font-size: 20em;
 line-height: 147px;
+}
+@media only screen and (max-width: 400px) {
+  .vv {
+    padding-top: 40%;
+    font-size: 6em;
+  }
 }
